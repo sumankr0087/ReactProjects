@@ -14,7 +14,7 @@ function Showhide() {
           className='bg-green-600 p-2 rounded w-full'
           onClick={toggleShowHide}
         >
-          {showHide ? 'Hide' : 'Show'}
+          {showHide ? 'Show' : 'Hide'}
         </button>
         {!showHide && <div className='mt-2'>Welcome to the Show/Hide Demo!</div>}
       </div>
