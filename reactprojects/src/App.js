@@ -1,4 +1,5 @@
 import './App.css';
+import ProgressBar from './components/ProgressBar/ProgressBar';
 import Stopwatch from './components/Timer/Stopwatch';
 import Showhide from './components/showHide/Showhide';
 import TodoList from './components/todoList/TodoList';
@@ -9,6 +10,7 @@ function App() {
       <Showhide />
       <Stopwatch />
       <TodoList />
+      <ProgressBar />
     </div>
   );
 }
