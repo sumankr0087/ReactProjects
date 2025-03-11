@@ -41,7 +41,7 @@ function Stopwatch() {
     }, [intervalId]);
 
     return (
-        <div className="bg-gray-800 text-white p-6 rounded shadow-lg text-center">
+        <div className="bg-gray-800 text-white p-6 w-96 mx-auto rounded shadow-lg text-center">
             <h1 className="text-3xl font-bold mb-4">Stopwatch</h1>
             <span className="text-2xl font-mono bg-gray-700 py-2 px-4 rounded-lg">{formatTime(time)}</span>
             <div className="mt-6 flex space-x-4">
