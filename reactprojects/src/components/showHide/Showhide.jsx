@@ -9,7 +9,7 @@ function Showhide() {
 
   return (
     <div>
-      <div className='bg-blue-400 text-center text-white p-4 rounded-lg w-64 min-w-[16rem]'>
+      <div className='bg-blue-400 text-center text-white p-4 rounded w-64 min-w-[16rem]'>
         <button
           className='bg-green-600 p-2 rounded w-full'
           onClick={toggleShowHide}
